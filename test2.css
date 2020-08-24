@@ -1,0 +1,85 @@
+*{
+    box-sizing:border-box;
+}
+
+/*nav*/
+.nav{
+    width:100%;
+    background-color:rebeccapurple;
+}
+.container{
+    width:70%;
+    margin:auto;
+    font-size:20px;
+    color:white;
+    overflow: hidden;
+}
+.nav h1{
+    text-align:right;
+    width:40%;
+    float:left;
+   padding-left:70px;
+}
+.container div{
+width:60%;
+float:left;
+}
+.nav img{
+    padding-right: 70px;
+    padding:30px;
+}
+/*home*/
+ .home{
+     width:100%;
+     background-color:#e8e8e8;
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+ }
+ .الشيوخ{
+     width: 70%;
+     margin:auto;
+ }
+ .الشيوخ div{
+     font-size:40px;
+     background-color:rebeccapurple;
+     text-align: center;
+     padding:25px;
+     margin:10px auto;
+ }
+ .الشيوخ div a{
+     text-decoration:none;
+     color:white;
+ }
+
+.الشيوخ div:hover{
+    opacity: .6;
+  -webkit-box-shadow: 10px 10px 2px 2px black;
+  box-shadow: 20px 20px 2px 2px black;
+    
+}
+.home h2{
+    text-align:center;
+    font-size:50px;
+}
+@media (max-width:400px){
+   
+    .container{
+        width: 100%;
+        margin:auto;
+    }.nav img{
+      width:60%;
+      padding:10px;
+      margin-top:33px;
+    }
+    .nav h1{
+        width:20%;
+            padding-left:10px; 
+    }
+    .الشيوخ{
+        width:100%;
+    }
+    .الشيوخ div{
+        width:100%;
+    }
+}
